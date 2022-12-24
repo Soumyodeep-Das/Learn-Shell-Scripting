@@ -1,0 +1,1 @@
+This is a program in Shell Script to search elements in an array using linear search method.
