@@ -1,0 +1,1 @@
+This program helps to find the minimum number in an array.
