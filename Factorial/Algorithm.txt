@@ -1,0 +1,11 @@
+Step1 : Start
+Step 2: Read a number
+Step 3: Initialize fact by 1; i.e;
+            fact=1
+Step 3: While(number>1)
+   3.1:     Multiply fact by number ; i.e;
+                fact=fact*number
+   3.2:    Decrease number by 1; i.e;
+                number=number-1
+Step 4: Print the value of fact 
+Step 5: Stop
