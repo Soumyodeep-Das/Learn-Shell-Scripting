@@ -1,0 +1,17 @@
+Step 1: Start
+Step 2: Take the length of serie to be printed from user
+Step 3: Set a=0 (1st element of series)
+Step 4: Set b=1(2nd element of series)
+Step 5: Print a
+Step 6: Print b
+Step 7: While(n>2)
+   7.1: Take c as sum of a and b;i.e;
+            c=a+b 
+   7.2: Print c
+   7.3: Store value of b in a;i.e;
+            a=b;
+   7.4: Store value of c in b;i.e;
+            b=c;
+   7.5: Decrease the value of n by 1;i.e;
+            n=n-1;
+Step 8:Stop
