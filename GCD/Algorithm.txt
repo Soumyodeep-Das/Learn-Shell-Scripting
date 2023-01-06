@@ -1,0 +1,13 @@
+Step 1: Start
+Step 2: Take input of two numbers ;
+            Let a be the greater number and b be the smaller number;
+Step 3: Check if b=0
+            then
+   3.1: Print the GCD is 'a'
+Step 4: Else
+Step 5: While(b != 0)
+   5.1: Set t = b  
+   5.2: Set b = a % b
+   5.3: Set a = t;
+Step 6: Print the GCD is 'a'
+Step 7: Stop
