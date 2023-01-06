@@ -1,0 +1,11 @@
+Step1 : Start
+Step 2: Read an array
+Step 3: Initialize min by a[0];
+Step 4: Set i=0
+Step 5: While number avilable in array
+   5.1:     if min>arr[i]
+                min=arr[i]
+   5.2:    increase i by 1;
+                i=i+1
+Step 4: Print the value of min
+Step 5: Stop
