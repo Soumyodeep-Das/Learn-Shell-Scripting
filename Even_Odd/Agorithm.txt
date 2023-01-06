@@ -1,0 +1,9 @@
+Step 1: Start
+Step 2: Take input of a number
+Step 3: Set set rem=number%2
+Step 4: Check if (rem=0)
+            then
+   4.1: Print number is Even       
+Step 5: Else
+   5.1: Print number is Odd
+Step 6: Stop
