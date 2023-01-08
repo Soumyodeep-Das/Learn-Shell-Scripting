@@ -1,0 +1,8 @@
+Step 1: Take input of 1st number ; 
+        Let it be 'a'
+Step 2: Take input of 2nd number;
+        Let it be 'b'
+Step 3: Add two numbers and store the result to sum
+        i.e; sum=a+b 
+Step 4: Print sum
+Step 5: Stop
