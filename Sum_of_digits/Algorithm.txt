@@ -1,0 +1,12 @@
+Step 1: Take input of a number
+Step 2: Ste sum=0
+Step 3: While(number > 0)
+        do
+   3.1: Take ta remainder of the number wheb divided by  10;
+        i.e, remainder=number%10
+   3.2: Divide the number by 10;
+        i.e; number=number/10
+   3.3: Add the remainder to sum
+        i.e; sum=sum+remainder
+Step 4: Print the sum]
+Step 5: Stop
