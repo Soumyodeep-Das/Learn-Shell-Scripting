@@ -1,0 +1,10 @@
+Step 1: Start
+Step 2: Prompt the user to enter the first number and store it in the variable a.
+Step 3: Prompt the user to enter the second number and store it in the variable b.
+Step 4: Prompt the user to enter the third number and store it in the variable c.
+Step 5: If a is greater than b, go to step 6. Otherwise, go to step 8.
+Step 6: If a is greater than c, go to step 7. Otherwise, go to step 9.
+Step 7: Print "$a is greatest" and go to step 10.
+Step 8: If b is greater than c, go to step 7. Otherwise, go to step 9.
+Step 9: Print "$c is greatest" and go to step 10.
+Step 10: Stop.
