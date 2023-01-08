@@ -1,0 +1,8 @@
+Step 1: Start.
+Step 2: Prompt the user to enter the lower limit and store it in the variable l.
+Step 3: Prompt the user to enter the upper limit and store it in the variable u.
+Step 4: Set flag to 0 if l is even, and set flag to 1 if l is odd.
+Step 5: Iterate from l to u setting i=l and incrementing i after every iteration:
+        a. If flag is 0, print "$i is even" and set flag to 1.
+        b. If flag is 1, print "$i is odd" and set flag to 0.
+Step 6: Stop.
