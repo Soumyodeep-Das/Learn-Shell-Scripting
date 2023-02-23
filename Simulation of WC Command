@@ -1,0 +1,35 @@
+case $1 in
+	'-l')nol=0
+		while read line
+		do
+			nol=`expr $nol + 1`
+		done<$2
+		echo "no of lines $nol"
+		;;
+	'-w')now=0
+		while read line
+		do
+			set $line
+			now=`expr $now + $#` #`$#`counts number of arguments in $line
+		done<$2
+		echo "no of words $now"
+		;;
+	'-c')noc=0
+		while read line
+		do
+			set $line
+			for word in $*
+			do
+				ch=`expr length "$word"`
+				#length is used with expr to get length of each word
+				ch=`expr $ch + 1`
+				#ch is increased by 1 to get next word as
+				#there is normally one space between two words
+				noc=`expr $ch + $noc`
+			done
+		done<$2
+		echo "number of characters $noc"
+		;;
+	*)echo "Invalid options"
+		;;
+esac
